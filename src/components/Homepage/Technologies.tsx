@@ -24,13 +24,13 @@ const TextCard = (props: TextCardProps) => {
   return (
     <div className='relative z-10 flex h-full w-full flex-col items-center justify-center gap-10 px-10 font-dongle text-secondary'>
       <div className='flex flex-col items-center text-4xl font-bold md:text-7xl'>
-        <div className='capitalize'>Integrate your website with</div>
+        <div className='capitalize'>Build your software with</div>
         <div
           className='cursor-default rounded-2xl bg-primary/40 p-3 backdrop-blur-sm hover:bg-primary'
           onMouseEnter={props.onMouseOver}
           onMouseLeave={props.onMouseLeave}
         >
-          powerful tools
+          cutting-edge technologies
         </div>
       </div>
       <div className='w-full rounded-3xl text-justify text-3xl md:w-1/2'>{technologiesText}</div>

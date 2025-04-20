@@ -66,8 +66,8 @@ export default function HomepageHeader() {
             src='/assets/logo.png'
           />
           <div className='font-coiny text-lg leading-5 tracking-wider text-secondary md:text-xl md:leading-6'>
-            <div className='whitespace-nowrap text-primary'>{"Kus'"}</div>
-            <div className='whitespace-nowrap'>Solutions</div>
+            <div className='whitespace-nowrap text-primary'>{"Vertex Software'"}</div>
+            <div className='whitespace-nowrap'>Enterprise</div>
           </div>
         </Navbar.Brand>
         <div className='flex h-full cursor-pointer items-center gap-2 text-xs text-secondary hover:text-primary md:order-2 md:text-base  lg:gap-6 lg:pr-5'>

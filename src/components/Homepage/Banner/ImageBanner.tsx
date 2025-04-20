@@ -29,7 +29,7 @@ export default function ImageBanner({ className }: { className?: string }) {
           ref={image2Ref}
           className={`z-0 h-full w-full object-contain opacity-0 md:w-auto`}
           alt='banner-image'
-          src='/assets/textPurple.png'
+          src='/assets/think.png'
           priority
           width={1000}
           height={1000}
@@ -42,7 +42,7 @@ export default function ImageBanner({ className }: { className?: string }) {
           ref={image1Ref}
           className={`z-0 h-full w-full object-contain md:w-auto`}
           alt='banner-image'
-          src='/assets/catPurple.png'
+          src='/assets/robort.png'
           priority
           width={1000}
           height={1000}

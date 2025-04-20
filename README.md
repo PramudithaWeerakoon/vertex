@@ -7,10 +7,9 @@
 
 ### [🌐 Website](https://deleashers-chronos.netlify.app/)
 
-This repository is a simple and elegant business-card website for Kus Solutions, a company specializing in website design and development. The website serves as a showcase for Kus Solutions' portfolio, client reviews, and a convenient contact form. It provides a clear and concise overview of the company's web design expertise and offers a seamless way for visitors to explore past work and get in touch.
+This repository is a simple and elegant business-card website for Vertex Software Enterprise Solutions, a company specializing in website design and development. The website serves as a showcase for Vertex Software Enterprise Solutions' portfolio, client reviews, and a convenient contact form. It provides a clear and concise overview of the company's web design expertise and offers a seamless way for visitors to explore past work and get in touch.
 
 ![Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?title=Tech+Stack&align=center&titleAlign=center&lineCount=2&width=600&bg=%230D1117&badge=%23161B22&border=%2321262D&titleColor=%2358A6FF&line1=react%2Creact%2C9bf266%3Bnext.js%2Cnext.js%2C9f179b%3B&line2=prettier%2Cprettier%2Cf0a892%3Btypescript%2Ctypescript%2C1227c0%3Btailwindcss%2Ctailwindcss%2C195c11%3B)
-
 
 ## Installation
 
@@ -34,11 +33,11 @@ This will start the server at http://localhost:3000.
 
 - Responsive Design: The website is fully responsive, ensuring a seamless and user-friendly experience on various devices and screen sizes.
 
-- Portfolio Showcase: Explore a curated collection of Kus Solutions' website creations with detailed project descriptions.
+- Portfolio Showcase: Explore a curated collection of Vertex Software Enterprise Solutions' website creations with detailed project descriptions.
 
 - Client Reviews: Read authentic reviews from satisfied clients to gain insight into the company's quality of service and expertise.
 
-- Contact Form: Easily get in touch with Kus Solutions through a convenient contact form, simplifying the communication process.
+- Contact Form: Easily get in touch with Vertex Software Enterprise Solutions through a convenient contact form, simplifying the communication process.
 
 # Demo
 
@@ -50,10 +49,7 @@ This will start the server at http://localhost:3000.
 ![Screenshot 2023-10-21 155032](https://github.com/nickmazurenko/kus-solutions-business-card/assets/48516366/58d33c26-ada7-40b8-956c-83ff0a3a0f68)
 ![Screenshot 2023-10-21 155051](https://github.com/nickmazurenko/kus-solutions-business-card/assets/48516366/ed11c583-39c5-4583-a387-7ef1ad149f92)
 
-
 https://github.com/nickmazurenko/kus-solutions-business-card/assets/48516366/ccef1ec0-ab4e-4a1e-b727-b875abfa0dc9
-
-
 
 ## Contributing
 

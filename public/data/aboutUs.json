@@ -1,14 +1,14 @@
 [
   {
-    "image": "/assets/textPurple.png",
-    "text": "Non ex magna qui magna aliquip sunt eu reprehenderit. Mollit commodo amet quis exercitation non amet anim laboris. Veniam culpa excepteur ipsum id sint voluptate dolore eu ex laborum esse officia laboris ad."
+    "image": "/assets/think.png",
+    "text": "At the foundation of our approach lies meticulous planning and strategic thinking. Our experienced team of software architects analyzes your business requirements to design scalable solutions that align with your long-term goals and technology roadmap."
   },
   {
-    "image": "/assets/textPurple1.png",
-    "text": "Magna nulla irure veniam tempor pariatur excepteur consectetur tempor esse.Sit occaecat culpa mollit Lorem consequat pariatur qui sunt nostrud nisi."
+    "image": "/assets/robort.png",
+    "text": "We leverage cutting-edge technologies and automated processes to deliver efficient development cycles. Our agile methodology ensures transparent communication, regular updates, and the flexibility to adapt to changing requirements throughout the project lifecycle."
   },
   {
-    "image": "/assets/textCat.png",
-    "text": "Anim consectetur aute laborum commodo ullamco eiusmod ea id veniam fugiat nulla nostrud tempor."
+    "image": "/assets/final.png",
+    "text": "Quality is our commitment. We implement rigorous testing procedures and code reviews to deliver robust, secure applications that exceed expectations. Our dedicated support team ensures your software continues to perform optimally long after deployment."
   }
 ]

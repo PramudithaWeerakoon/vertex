@@ -7,11 +7,10 @@ import { useEffect, useState } from 'react';
 import {
   PiCheckCircleBold,
   PiEnvelopeSimpleBold,
+  PiFacebookLogo,
   PiInstagramLogo,
   PiLinkedinLogo,
-  PiPhoneBold,
-  PiTelegramLogo,
-  PiTiktokLogo
+  PiPhoneBold
 } from 'react-icons/pi';
 
 interface HomepageFooterProps {
@@ -44,32 +43,25 @@ export default function HomepageFooter(props: HomepageFooterProps) {
       </div>
       <div className='flex flex-row gap-10 text-5xl text-secondary md:text-6xl'>
         <Link
-          href='https://www.instagram.com/'
+          href='https://www.instagram.com/vertex_software_enterprise/'
           className='cursor-pointer text-secondary hover:text-primary'
           target='_blank'
         >
           <PiInstagramLogo />
         </Link>
         <Link
-          href='https://linkedin.com/'
+          href='https://www.linkedin.com/company/vertex-software-enterprise/'
           className='cursor-pointer text-secondary hover:text-primary'
           target='_blank'
         >
           <PiLinkedinLogo />
         </Link>
         <Link
-          href='https://telegram.com/'
+          href='https://web.facebook.com/profile.php?id=61575011651686&mibextid=ZbWKwL&_rdc=1&_rdr#'
           className='cursor-pointer text-secondary hover:text-primary'
           target='_blank'
         >
-          <PiTelegramLogo />
-        </Link>
-        <Link
-          href='https://tiktok.com/'
-          className='cursor-pointer text-secondary hover:text-primary'
-          target='_blank'
-        >
-          <PiTiktokLogo />
+          <PiFacebookLogo />
         </Link>
       </div>
       <span className='cursor-default self-center font-dongle text-5xl text-primary md:self-start md:px-20'>
@@ -166,8 +158,7 @@ export default function HomepageFooter(props: HomepageFooterProps) {
               src='/assets/logo.png'
             />
             <div className='font-coiny text-lg leading-5 tracking-wider text-secondary md:text-xl md:leading-6'>
-              <div className='whitespace-nowrap text-primary'>{"Kus'"}</div>
-              <div className='whitespace-nowrap'>Solutions</div>
+              <div className='whitespace-nowrap text-primary'>{'Vertex Software Enterprise '}</div>
             </div>
           </div>
         </div>

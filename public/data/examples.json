@@ -1,31 +1,34 @@
 [
   {
-    "preview": "/assets/examples/example.png",
-    "text": "Sit ex aliquip consequat labore qui aute anim sit. Aliquip fugiat elit ad officia id ad exercitation sit excepteur duis. Nostrud qui ullamco labore nostrud ullamco commodo aute ut proident elit occaecat magna. Veniam quis proident eiusmod laborum laboris veniam. Sunt dolor Lorem sunt aliqua ipsum fugiat aliquip do officia sint minim tempor. Consequat in adipisicing consectetur cillum amet do nulla amet minim sint.",
-    "title": "Website Name",
-    "tags": ["smth", "another tag", "something else"],
-    "images": ["/assets/examples/example.png", "/assets/examples/example1.png"]
+    "preview": "/assets/examples/bike.png",
+    "text": "A modern e-commerce platform developed for BIKE HOUSE, a premium bicycle retailer. The solution features a responsive design with advanced product filtering, secure payment integration, and a custom inventory management system. Built with React, Node.js, and MongoDB, this platform increased online sales by 35% within the first quarter after launch.",
+    "title": "BIKE HOUSE",
+    "tags": ["E-commerce", "React", "Java", "Maps"],
+    "images": [
+      "/assets/examples/bike.png",
+      "/assets/examples/bike2.png",
+      "/assets/examples/bike3.png"
+    ]
   },
   {
-    "preview": "/assets/examples/example1.png",
-    "text": "Sit ex aliquip consequat labore qui aute anim sit. Aliquip fugiat elit ad officia id ad exercitation sit excepteur duis. Nostrud qui ullamco labore nostrud ullamco commodo aute ut proident elit occaecat magna. Veniam quis proident eiusmod laborum laboris veniam. Sunt dolor Lorem sunt aliqua ipsum fugiat aliquip do officia sint minim tempor. Consequat in adipisicing consectetur cillum amet do nulla amet minim sint.",
-    "title": "Website Name",
-    "tags": ["smth", "another tag", "something else"],
-    "images": ["/assets/examples/example1.png"]
+    "preview": "/assets/examples/rent.png",
+    "text": "A comprehensive inventory management system built for a rental business to track, manage, and optimize their rental items. The solution features real-time availability tracking, automated scheduling, damage reporting, and analytics dashboard. Developed with Supabase for backend services, this system reduced item loss by 40% and improved operational efficiency by streamlining the rental process.",
+    "title": "RentTrack Inventory System",
+    "tags": ["Inventory", "Supabase", "React", "SaaS"],
+    "images": ["/assets/examples/in2.png"]
   },
   {
-    "preview": "/assets/examples/example2.png",
-    "text": "Sit ex aliquip consequat labore qui aute anim sit. Aliquip fugiat elit ad officia id ad exercitation sit excepteur duis. Nostrud qui ullamco labore nostrud ullamco commodo aute ut proident elit occaecat magna. Veniam quis proident eiusmod laborum laboris veniam. Sunt dolor Lorem sunt aliqua ipsum fugiat aliquip do officia sint minim tempor. Consequat in adipisicing consectetur cillum amet do nulla amet minim sint.",
-    "title": "Website Name",
-    "tags": ["smth", "another tag", "something else"],
-    "images": ["/assets/examples/example2.png"]
+    "preview": "/assets/examples/one.png",
+    "text": "An advanced point-of-sale system integrated with a powerful inventory management solution built on Supabase. Features include barcode scanning capabilities, real-time stock updates, sales analytics, employee performance tracking, and multi-location inventory synchronization. This cloud-based solution helped the client reduce checkout times by 65% and improve inventory accuracy to 99.8%.",
+    "title": "RetailPro POS System",
+    "tags": ["Point of Sale", "Supabase", "Barcode", "Inventory"],
+    "images": ["/assets/examples/two.png"]
   },
   {
-    "preview": "/assets/examples/example3.png",
-
-    "text": "Sit ex aliquip consequat labore qui aute anim sit. Aliquip fugiat elit ad officia id ad exercitation sit excepteur duis. Nostrud qui ullamco labore nostrud ullamco commodo aute ut proident elit occaecat magna. Veniam quis proident eiusmod laborum laboris veniam. Sunt dolor Lorem sunt aliqua ipsum fugiat aliquip do officia sint minim tempor. Consequat in adipisicing consectetur cillum amet do nulla amet minim sint.",
-    "title": "Website Name",
-    "tags": ["smth", "another tag", "something else"],
-    "images": ["/assets/examples/example2.png"]
+    "preview": "/assets/examples/radio.png",
+    "text": "A dynamic website for a radio station and music band featuring live streaming, event management, and media uploads. The comprehensive admin panel allows content management, listener analytics, and scheduling. Built with Next.js, Prisma ORM connecting to a Neon PostgreSQL database, and AWS for media storage and streaming services. This solution increased listener engagement by 75% and streamlined the band's digital presence management.",
+    "title": "SoundWave Radio Portal",
+    "tags": ["Next.js", "Prisma", "Neon DB", "AWS", "Media"],
+    "images": ["/assets/examples/ra1.png", "/assets/examples/ra2.png"]
   }
 ]

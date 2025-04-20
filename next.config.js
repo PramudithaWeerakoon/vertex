@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    emailjsPublicKey: 'JqXosOh_cPbQzyU-f',
-    emailjsServiceId: 'service_kifd2sn',
-    emailjsTemplateId: 'template_7dt6fo7'
-  }
+    emailjsPublicKey: 'YF9qKtN1sQDN8Ls3F',
+    emailjsServiceId: 'service_nz0ro9j',
+    emailjsTemplateId: 'template_tfjogrl',
+  },
 };
 
 module.exports = nextConfig;

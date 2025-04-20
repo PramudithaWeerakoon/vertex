@@ -54,7 +54,7 @@ export default function Form({
                   HTMLInputElement | HTMLTextAreaElement
                 >);
               }}
-              country={'ua'}
+              country={'lk'}
             />
             <span className='px-2 text-lg text-red-700'>{formErrors.phone}</span>
           </div>
