@@ -4,7 +4,6 @@ import { ChangeEvent } from 'react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 import './styles/phoneInput.css';
-import '@/components/styles/common.css';
 
 export default function Form({
   formErrors,
@@ -24,9 +23,9 @@ export default function Form({
         <div className='flex w-full flex-col gap-5 md:flex-row'>
           <div className='flex w-full flex-col md:w-1/2'>
             <input
-              className={`form-input ${
+              className={`${
                 formErrors.fullName ? 'border-2 border-red-700' : ''
-              }`}
+              } rounded-xl bg-primary/60 p-1 px-5 text-2xl placeholder:h-full placeholder:text-2xl placeholder:text-secondary/70 focus:border-primary focus:outline-none focus:ring-0`}
               placeholder='Full Name*'
               name='fullName'
               onChange={onChange}
@@ -35,9 +34,9 @@ export default function Form({
           </div>
           <div className='flex w-full flex-col md:w-1/2'>
             <input
-              className={`form-input ${
+              className={`${
                 formErrors.email ? 'border-2 border-red-700' : ''
-              }`}
+              } rounded-xl bg-primary/60 p-1 px-5 text-2xl placeholder:h-full placeholder:text-2xl placeholder:text-secondary/70 focus:border-primary focus:outline-none focus:ring-0`}
               placeholder='Email address*'
               type='email'
               name='email'
@@ -64,9 +63,9 @@ export default function Form({
 
           <div className='flex w-full flex-col md:w-1/2'>
             <input
-              className={`form-input ${
+              className={`${
                 formErrors.company ? 'border-2 border-red-700' : ''
-              }`}
+              } rounded-xl bg-primary/60 p-1 px-5 text-2xl placeholder:h-full placeholder:text-2xl placeholder:text-secondary/70 focus:border-primary focus:outline-none focus:ring-0`}
               placeholder='Company Name (optional)'
               name='company'
               onChange={onChange}
@@ -77,9 +76,9 @@ export default function Form({
       </div>
       <div className='flex w-full flex-col md:w-3/4'>
         <textarea
-          className={`form-input w-full resize-none ${
+          className={`${
             formErrors.text ? 'border-2 border-red-700' : ''
-          }`}
+          } w-full resize-none rounded-xl bg-primary/60 p-1 px-5 text-2xl placeholder:h-full placeholder:text-2xl placeholder:text-secondary/70 focus:border-primary focus:outline-none focus:ring-0`}
           placeholder='How can we help you?*'
           name='text'
           onChange={onChange}

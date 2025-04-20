@@ -49,7 +49,6 @@ export default function HomepageFooter(props: HomepageFooterProps) {
           href='https://www.instagram.com/vertex_software_enterprise/'
           className='cursor-pointer text-secondary hover:text-primary'
           target='_blank'
-          rel="noopener noreferrer"
         >
           <PiInstagramLogo />
         </Link>
@@ -57,7 +56,6 @@ export default function HomepageFooter(props: HomepageFooterProps) {
           href='https://www.linkedin.com/company/vertex-software-enterprise/'
           className='cursor-pointer text-secondary hover:text-primary'
           target='_blank'
-          rel="noopener noreferrer"
         >
           <PiLinkedinLogo />
         </Link>
@@ -65,7 +63,6 @@ export default function HomepageFooter(props: HomepageFooterProps) {
           href='https://web.facebook.com/profile.php?id=61575011651686&mibextid=ZbWKwL&_rdc=1&_rdr#'
           className='cursor-pointer text-secondary hover:text-primary'
           target='_blank'
-          rel="noopener noreferrer"
         >
           <PiFacebookLogo />
         </Link>
@@ -73,7 +70,6 @@ export default function HomepageFooter(props: HomepageFooterProps) {
           href='https://www.youtube.com/@vertexsoftwareenterprise'
           className='cursor-pointer text-secondary hover:text-primary'
           target='_blank'
-          rel="noopener noreferrer"
         >
           <PiYoutubeLogo />
         </Link>
@@ -81,7 +77,6 @@ export default function HomepageFooter(props: HomepageFooterProps) {
           href='https://twitter.com/VertexSoftwareE'
           className='cursor-pointer text-secondary hover:text-primary'
           target='_blank'
-          rel="noopener noreferrer"
         >
           <PiTwitterLogo />
         </Link>
@@ -181,13 +176,11 @@ export default function HomepageFooter(props: HomepageFooterProps) {
             }}
           >
             <Image
-              width={80}
-              height={80}
-              alt='Vertex Software Enterprise logo'
+              width={50}
+              height={50}
+              alt='logo'
               className='h-11 w-auto md:h-14 md:w-auto'
               src={CommonAssets.logo}
-              quality={90}
-              sizes="(max-width: 768px) 50px, 80px"
             />
             <div className='font-coiny text-lg leading-5 tracking-wider text-secondary md:text-xl md:leading-6'>
               <div className='whitespace-nowrap text-primary'>{'Vertex Software Enterprise '}</div>

@@ -61,13 +61,11 @@ export default function HomepageHeader() {
           }}
         >
           <Image
-            width={80}
-            height={80}
-            alt='Vertex Software Enterprise logo'
+            width={50}
+            height={50}
+            alt='logo'
             className='h-11 w-auto md:h-14 md:w-auto'
             src={CommonAssets.logo}
-            quality={90}
-            sizes="(max-width: 768px) 50px, 80px"
           />
           <div className='font-coiny text-lg leading-5 tracking-wider text-secondary md:text-xl md:leading-6'>
             <div className='whitespace-nowrap text-primary'>{"Vertex Software'"}</div>
