@@ -83,7 +83,7 @@ export default function HomepageFooter(props: HomepageFooterProps) {
       </div>
       <div className='flex w-full flex-col items-center justify-center font-dongle text-2xl text-secondary'>
         <div className='address flex items-center gap-2 text-center md:text-left'>
-          <span className='text-primary'>Address:</span> 123 Software Avenue, Colombo, Sri Lanka
+          <span className='text-primary'>Address:</span> Colombo, Sri Lanka
         </div>
         <div className='business-hours flex items-center gap-2 text-center md:text-left'>
           <span className='text-primary'>Business Hours:</span> Mon-Fri: 9am - 6pm
