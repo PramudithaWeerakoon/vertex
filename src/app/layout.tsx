@@ -8,7 +8,7 @@ const coiny = Coiny({ variable: '--font-coiny', weight: '400', subsets: ['latin'
 const dongle = Dongle({ variable: '--font-dongle', weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Vertex Software Enterprise Solutions | Custom Software Development & Web Applications",
+  title: "Vertex Software | Custom Software Development",
   description: "Vertex Software Enterprise delivers custom software solutions, web applications, and e-commerce platforms with cutting-edge technologies. Expert software development services to transform your business.",
   viewport: 'width=device-width, initial-scale=1, minimum-scale=1, user-scalable=0',
   metadataBase: new URL('https://vertex-software-enterprise.com'),
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Vertex Software Enterprise Solutions | Custom Software Development",
+    title: "Vertex Software | Custom Software Development",
     description: "Expert custom software development services with modern technologies. Transform your business with scalable, robust web applications and e-commerce solutions.",
     url: 'https://vertex-software-enterprise.com',
     siteName: 'Vertex Software Enterprise',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Vertex Software Enterprise | Custom Software Solutions",
+    title: "Vertex Software | Custom Software Development",
     description: "Expert software development services with cutting-edge technologies for businesses of all sizes.",
     images: ['/assets/logo.png'],
   },
