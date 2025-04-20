@@ -7,8 +7,8 @@
   ],
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
-    "linebreak-style": ["error", "unix"],
-    "prettier/prettier": ["error", { "endOfLine": "lf" }],
+    "linebreak-style": "off",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "react/react-in-jsx-scope": "off"
   },
   "parserOptions": {

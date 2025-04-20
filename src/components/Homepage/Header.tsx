@@ -4,6 +4,8 @@ import { ScrollToPlugin } from 'gsap/all';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import ContactUsButton from '../buttons/ContactUsButton';
+import { CommonAssets } from '@/lib/assetUtils';
+
 export default function HomepageHeader() {
   const [isHeaderVisible, setHeaderVisible] = useState(true);
   const prevScrollPos = useRef(0);
@@ -63,7 +65,7 @@ export default function HomepageHeader() {
             height={50}
             alt='logo'
             className='h-11 w-auto md:h-14 md:w-auto'
-            src='/assets/logo.png'
+            src={CommonAssets.logo}
           />
           <div className='font-coiny text-lg leading-5 tracking-wider text-secondary md:text-xl md:leading-6'>
             <div className='whitespace-nowrap text-primary'>{"Vertex Software'"}</div>

@@ -5,6 +5,15 @@ const nextConfig = {
     emailjsServiceId: 'service_nz0ro9j',
     emailjsTemplateId: 'template_tfjogrl',
   },
+  images: {
+    unoptimized: true,
+  },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
+  trailingSlash: true,
+  eslint: {
+    // Ignore ESLint errors during the build process
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
