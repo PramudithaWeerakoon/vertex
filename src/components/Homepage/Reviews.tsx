@@ -27,16 +27,16 @@ const CarouselSlide = (props: CarouselSlideProps) => {
   return (
     <div className='pointer-events-none h-full w-full p-2 md:p-10 md:px-20'>
       <div className='flex h-full w-full flex-col items-center justify-between gap-5 rounded-xl bg-primary/25 p-5 py-10 shadow-primary md:flex-row md:shadow-blblur'>
-        <div className='relative flex h-auto min-h-fit min-w-fit items-center justify-center rounded-2xl bg-primary md:w-1/4'>
+        <div className='relative flex h-auto items-center justify-center rounded-2xl bg-primary p-1'>
           <Image
             src={image}
-            width={150}
-            height={150}
-            className='h-full min-h-fit w-full object-contain'
+            width={100}
+            height={100}
+            className='h-[150px] w-[150px] object-contain'
             alt='slide-image'
           />
         </div>
-        <div className='md:w-4/3 line-clamp-5 break-words text-justify font-dongle text-3xl text-gray-300'>
+        <div className='md:w-11/12 line-clamp-5 break-words text-justify font-dongle text-3xl text-gray-300'>
           {text}
         </div>
       </div>
@@ -76,9 +76,7 @@ export default function HomepageReviews(props: ReviewsProps) {
         >
           Reviews
         </div>
-        <div className='z-10 text-6xl uppercase'>
-          {`Vertex Software Enterprise'tomers' feedback`}d
-        </div>
+        <div className='z-10 text-6xl uppercase'>{`Kus'tomers' feedback`}d</div>
       </div>
       <div className='w-full pb-5 text-center font-dongle text-5xl text-secondary md:hidden'>
         Reviews
