@@ -11,7 +11,9 @@ import {
   PiFacebookLogo,
   PiInstagramLogo,
   PiLinkedinLogo,
-  PiPhoneBold
+  PiPhoneBold,
+  PiTwitterLogo,
+  PiYoutubeLogo
 } from 'react-icons/pi';
 
 interface HomepageFooterProps {
@@ -64,6 +66,28 @@ export default function HomepageFooter(props: HomepageFooterProps) {
         >
           <PiFacebookLogo />
         </Link>
+        <Link
+          href='https://www.youtube.com/@vertexsoftwareenterprise'
+          className='cursor-pointer text-secondary hover:text-primary'
+          target='_blank'
+        >
+          <PiYoutubeLogo />
+        </Link>
+        <Link
+          href='https://twitter.com/VertexSoftwareE'
+          className='cursor-pointer text-secondary hover:text-primary'
+          target='_blank'
+        >
+          <PiTwitterLogo />
+        </Link>
+      </div>
+      <div className='flex w-full flex-col items-center justify-center font-dongle text-2xl text-secondary'>
+        <div className='address flex items-center gap-2 text-center md:text-left'>
+          <span className='text-primary'>Address:</span> 123 Software Avenue, Colombo, Sri Lanka
+        </div>
+        <div className='business-hours flex items-center gap-2 text-center md:text-left'>
+          <span className='text-primary'>Business Hours:</span> Mon-Fri: 9am - 6pm
+        </div>
       </div>
       <span className='cursor-default self-center font-dongle text-5xl text-primary md:self-start md:px-20'>
         Service

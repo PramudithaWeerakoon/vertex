@@ -62,10 +62,10 @@ export default function HomepageAboutUs(props: AboutUsProps) {
         >
           {`"About Us"`}
         </div>
-        <div className='z-10 text-6xl uppercase'>What we do</div>
+        <h3 className='z-10 text-6xl uppercase'>What we do</h3>
       </div>
       <div className='w-full pb-5 text-center font-dongle text-5xl text-secondary md:hidden'>
-        About Us
+        <h3>About Us</h3>
       </div>
       <div className='flex h-full w-full flex-col items-center justify-center gap-5 self-center rounded-3xl bg-primary/20 p-5 md:w-1/2 md:gap-10 md:p-10'>
         {aboutUs.map((card, index) => (

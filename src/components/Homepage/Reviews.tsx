@@ -76,10 +76,10 @@ export default function HomepageReviews(props: ReviewsProps) {
         >
           Reviews
         </div>
-        <div className='z-10 text-6xl uppercase'>{`Kus'tomers' feedback`}d</div>
+        <h3 className='z-10 text-6xl uppercase'>{`Kus'tomers' feedback`}d</h3>
       </div>
       <div className='w-full pb-5 text-center font-dongle text-5xl text-secondary md:hidden'>
-        Reviews
+        <h3>Reviews</h3>
       </div>
       <Carousel
         indicators={false}
