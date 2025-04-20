@@ -76,7 +76,7 @@ export default function HomepageReviews(props: ReviewsProps) {
         >
           Reviews
         </div>
-        <h3 className='z-10 text-6xl uppercase'>{`Kus'tomers' feedback`}d</h3>
+        <h3 className='z-10 text-6xl uppercase'>{`customers' feedback`}d</h3>
       </div>
       <div className='w-full pb-5 text-center font-dongle text-5xl text-secondary md:hidden'>
         <h3>Reviews</h3>

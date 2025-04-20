@@ -2,6 +2,7 @@ import { gsap } from 'gsap';
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import { CommonAssets } from '@/lib/assetUtils';
+import '@/components/styles/common.css';
 
 export default function ImageBanner({ className }: { className?: string }) {
   const image1Ref = useRef(null);
@@ -29,11 +30,13 @@ export default function ImageBanner({ className }: { className?: string }) {
         <Image
           ref={image2Ref}
           className={`z-0 h-full w-full object-contain opacity-0 md:w-auto`}
-          alt='banner-image'
+          alt='AI-powered software development illustration'
           src={CommonAssets.thinkImage}
           priority
-          width={1000}
-          height={1000}
+          width={800}
+          height={800}
+          sizes="(max-width: 768px) 100vw, 800px"
+          quality={85}
         />
       </div>
       <div
@@ -42,11 +45,13 @@ export default function ImageBanner({ className }: { className?: string }) {
         <Image
           ref={image1Ref}
           className={`z-0 h-full w-full object-contain md:w-auto`}
-          alt='banner-image'
+          alt='Custom software development robot illustration'
           src={CommonAssets.robotImage}
           priority
-          width={1000}
-          height={1000}
+          width={800}
+          height={800}
+          sizes="(max-width: 768px) 100vw, 800px"
+          quality={85}
         />
       </div>
     </>

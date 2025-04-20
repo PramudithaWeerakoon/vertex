@@ -6,9 +6,13 @@ const nextConfig = {
     emailjsTemplateId: 'template_tfjogrl',
   },
   images: {
-    unoptimized: false, // Changed to false to enable image optimization
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920], // Responsive image sizes
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384], // Optimized image sizes
+    formats: ['image/avif', 'image/webp'],
+    remotePatterns: [],
+    unoptimized: false,
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    domains: [],
+    minimumCacheTTL: 60,
   },
   assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
   trailingSlash: true,

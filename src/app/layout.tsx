@@ -43,7 +43,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang='en'>
       <head>
-        <link rel="canonical" href="https://vertex-software-enterprise.com" />
         {/* Google Analytics Measurement ID - Replace G-XXXXXXXXXX with your actual GA4 Measurement ID */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
